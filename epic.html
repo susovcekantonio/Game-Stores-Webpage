@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam vs Epic</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/epic.jpg">
+</head>
+<body>
+    <header>
+        <img id="img_vs" src="images/Steam-vs-Epic-Games.jpg" usemap="#vs_image_link">
+        <map name="vs_image_link">
+            <area shape="rect" coords="73,77,134,182" href="https://store.epicgames.com/en-US/">
+            <area shape="circle" coords="314,122,45" href="https://store.steampowered.com/">
+        </map>
+    </header>    
+    <nav>
+        <a href="main.html" class="nav_segment" ><div class="no_link_nav">MAIN</div></a>
+        <a href="steam.html" class="nav_segment" ><div>STEAM</div></a>
+        <a href="#" class="nav_segment" ><div>EPIC</div></a>
+    </nav>
+    <div class="epic_info">
+        <p class="epic_left_p">
+            <span class="p_text"> ABOUT<br></span>
+            Epic Games Store offers a similar service of providing games and was launched fairly recently in December 2018. 
+            Epic Games are well-known mostly for their hit battle royale game Fortnite and Unreal Engine.
+        </p>
+        <p class="epic_right_p">
+            <span class="p_text">GAMES<br></span>
+            While Epic Games Store only has less than 1,000 games, it offers high-quality games and highly-anticipated AAA titles. 
+            The titles players are mostly looking forward to are always available on Epic Games Store, just like they are on Steam. 
+            Epic Games help players find good quality games and don't let just any game slip past them.
+        </p>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="number_text">1 / 3</div>
+              <img src="Images/epic_free.jpg" style="width:100%">
+              <div class="epic_text">Free games</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="number_text">2 / 3</div>
+              <img src="Images/epic_library.jpg" style="width:100%">
+              <div class="epic_text">Library interface</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="number_text">3 / 3</div>
+              <img src="Images/epic_store.jpg" style="width:100%">
+              <div class="epic_text">Store interface</div>
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <script src="java/slideshow.js"></script>
+    </div>
+    <footer>
+        <span id="vs_footer">This page was created for a web project</span>
+    </footer>
+</body>
+</html>

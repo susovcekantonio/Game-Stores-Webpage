@@ -1,0 +1,265 @@
+html, body{  
+    height: 100%;
+    background-image: linear-gradient(black,grey,white)  
+    
+}
+
+#img_vs{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border: yellow;
+    border-width: 2px;
+    border-style:solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding: 10px;  
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav_segment {
+    font-size: xx-large;
+    text-decoration: none;
+    color:white;
+    flex:1;
+}
+
+nav a:hover{
+    color: white;
+    font-size: 150%;
+
+}
+
+#vs_main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 5px;
+}
+
+#vs_text_left{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#vs_text_right{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.p_text{
+    font-size:x-large;
+}
+
+.main_p{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.steam_left_p{
+    background-color: rgb(40, 40, 189);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    width: 600px;
+    height: auto;
+}
+
+.steam_left_p{
+    background-color: rgb(40, 40, 189);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    width: 600px;
+    height: auto;
+}
+
+.steam_right_p{
+    background-color: rgb(40, 40, 189);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 2;
+    text-align: center;
+    font-weight: bolder;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+}
+
+.epic_left_p{
+    background-color: rgb(40, 40, 189);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    font-weight: bolder;
+    width: 600px;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+.epic_right_p{
+    background-color: rgb(40, 40, 189);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    font-weight: bolder;
+    width: 600px;
+    height: auto;
+}
+
+.steam_hq{
+    flex: 2;
+    margin-left: auto;
+}
+
+#vs_video iframe{
+    grid-row: 2;
+    grid-column: 1;
+    width: 99%;
+    height:300px;
+}
+
+#vs_table {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 8px;
+    grid-row: 1;
+    grid-column: 2;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#main_caption{
+    background-color: rgba(12, 12, 14, 0.63);
+    font-size:xx-large;
+    font-weight: bolder;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+.steam_info{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://wallpaperaccess.com/full/5075865.png");
+    max-height: 1100px;
+    flex-wrap: wrap;
+}
+
+.epic_info{
+    width: 100%;
+    height: 800px;
+    background-image: url("https://www.reuters.com/resizer/OxNrFGJpv1eWPIAhfvZXcunRBGk=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/UEOXMN7HRRNKJNIDU5TRHDUKD4.jpg");
+}
+
+footer{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    border: yellow;
+    border-width: 2px;
+    border-style:solid;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    max-height: auto;
+    margin: auto;
+    position: relative;
+  }
+
+  .mySlides {
+    display: none;
+}
+
+  .number_text {
+    color: white;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    z-index: 1;
+    
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #ada6a6;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .epic_text {
+    color: #d6d0d0;
+    font-size: 36px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(78, 78, 179);
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
